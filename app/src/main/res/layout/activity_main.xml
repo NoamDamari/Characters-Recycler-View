@@ -8,14 +8,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextText"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Search character"
-        android:textColor="#C1BEBE" />
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="The Vampire Diaries"
+        android:textAlignment="center"
+        android:textColor="#751717"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myResView"
